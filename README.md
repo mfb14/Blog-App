@@ -20,7 +20,7 @@
 
 ### Run the following command in the project folder you cloned to your local:
 ```ssh
-$ cd ftteknolojipracticum
+$ cd questapp
 $ mvn clean install
 $ mvn spring-boot:run
 ```
