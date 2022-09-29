@@ -18,7 +18,7 @@
 ---
 *$PORT: 8080*
 
-###Run the following command in the project folder you cloned to your local:
+### Run the following command in the project folder you cloned to your local:
 ```ssh
 $ cd ftteknolojipracticum
 $ mvn clean install
