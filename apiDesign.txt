@@ -1,0 +1,21 @@
+./users			->Tüm users objelerine erişim
+./users/{userId}		->Belirli bir user için path
+./users/{userId}/profile	->Belirli bir user için profil kısmı
+
+
+./posts			->Postlarda ayrı bir resource Tüm postlar
+./posts?user={userId}		->Spesifik bir user'ın postuna bakmak istersem
+./posts/{userId}/		->Spesifik bir postid ile posta bakmak için
+
+./comments			->Commente ayrı bir root tanımladık
+./comments?postId={postId}	->Belli bir post altındaki commentlere erişmek için
+./comments?user={userId}	->Sadece spesifik bir user ın commentlerine erişmek için kullanılır
+./comments/{commentId}		->TEk bir commente erişmek için commentId kullanıldı.
+
+./likes			->Like ' aayrı bir root tanımladık
+./likes?postId={postId}	->Belli bir post altındaki like lara erişmek için kullanılır
+./likes?user={userId}		->Bir userın like larına erişmek için kullanılır
+./likes/{likeId}		->Tek bir like a erişmek için kullanılır
+
+
+
