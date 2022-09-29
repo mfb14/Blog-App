@@ -15,4 +15,15 @@
 - Simple blog application made with Java&Spring Boot. There is a User who can register, login with JWT and who can post, comment ant like posts.
 - The project made according to N-Layered architecture. 
 
---
+---
+*$PORT: 8080*
+
+###Run the following command in the project folder you cloned to your local:
+```ssh
+$ cd ftteknolojipracticum
+$ mvn clean install
+$ mvn spring-boot:run
+```
+
+
+
